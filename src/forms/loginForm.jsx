@@ -44,15 +44,7 @@ class loginForm extends Component {
             <br />
             <label for="SignUp">
               Don't have an account?
-              <a
-                className="signup"
-                style={{
-                  color: "black",
-                  marginLeft: "10px",
-                  textDecoration: "none",
-                }}
-                href="./signUp"
-              >
+              <a className="signup" href="./signUp">
                 SignUp
               </a>
             </label>
